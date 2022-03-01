@@ -12,16 +12,12 @@ a:hover{
     width: 150px;
 }
 /*HEADER*/
+
 .header-row{
     position: sticky;
     top: 0;
     z-index: 1;
-
 }
-.conteiner-fluid{
-    overflow: hidden;
-}
-
 nav{
     border: inset 5px white;
     color:white;
