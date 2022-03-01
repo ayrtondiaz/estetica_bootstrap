@@ -12,6 +12,9 @@ a:hover{
     width: 150px;
 }
 /*HEADER*/
+.conteiner-fluid{
+    overflow: hidden;
+}
 
 .header-row{
     position: sticky;
