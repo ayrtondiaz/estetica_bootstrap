@@ -1,87 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="stylesheet" href="../css/estilo.css">
-
+    <title>Nosotros</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!--MI CSS-->
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <header class="grid-header-new">
-        <div class="header-logo">
-            <img src="../assets/img/logo.png" alt="logo" class="logoImagen">
-        </div>                
-        <nav class="header-grid-nav">
-            <ul class="grid-nav" >
-                <li><a class="grid-nav nav-color" href="../index.html">Inicio</a></li>
-                <li><a class="grid-nav nav-color" href="../views/servicios.html">Servicios</a></li>
-                <li><a class="grid-nav nav-color" href="../views/nosotros.html">Nosotros</a></li>
-                <li><a class="grid-nav nav-color" href="../views/contacto.html">Contacto</a></li>
-                <li><a class="grid-nav nav-color" href="../views/ubicacion.html">Ubicación</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="grid-main-contacto">
-        <div class="titulo-contacto">
-            <h2 class="titulo-contacto-txt">CONTACTO</h2>
+    <div class="conteiner-fluid">
+        <!--header-->
+        <div class="row header-row">
+            <div class="col-lg-12 col-12 ">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="../assets/img/logo.png" alt="logo" class="logoImagen">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>                 
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link" href="../views/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link" href="../views/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link" href="../views/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link" href="../views/ubicacion.html">Ubicación</a>
+                        </li>
+                      </ul>                      
+                    </div>
+                  </nav>
+            </div>
         </div>
-        <form action="submit" class="grid-contacto">
-            
-                <label class="contacto-item" for="nombre">Nombre y Apellido
-                    <input type="text" placeholder="Ejemplo: Juana Viale" name="nombre">
-                </label>
-                <label class="contacto-item" for="servicio">Servicio a seleccionar
-                   <select name="servicio" id="servicio">
-                       <option value="s1">Uñas</option>
-                       <option value="s2">Balayage</option>
-                       <option value="s3">Pestañas</option>
-                   </select>
-                </label>
-                <label class="contacto-item" for="pago">Método de Pago
-                    <select name="pago" id="pago">
-                        <option value="p1">Mercado Pago</option>
-                        <option value="p2">Transferencia</option>
-                        <option value="p3">Efectivo</option>
-                    </select>
-                 </label>
-                 <label class="contacto-item" for="correo">Correo Electronico
-                     <input type="text" placeholder="tucorreo@gmail.com" name="correo">
-                 </label>
-                <button class="">
-                     ENVIAR
-                     <img src="../assets/img/whatsapp.png" alt="Whattasp" style="width: 50px; height:50px ;">
-                </button>
-            
-
-        </form>
-    </main>
-    <footer class="grid-foo">
-        <div class="grid-logo-foo">
-            <img src="../assets/img/logo.png" alt="" class="logo-foo-principal img-60 center">
-            <img src="../assets/img/estetica.png" alt="" class="logo-foo-sub img-60 center">
+         <!--main-->
+        <div class="contacto">
+            <div class="row col-lg-12 col-12 titulo-contacto ">
+                <h1>CONTACTO</h1>
+            </div>
+            <div class="row ">
+                <div class="col-lg-12 col-12 ">
+                    <form class="needs-validation center" novalidate>
+                        <div class="form-row contacto-row">
+                          <div class="col-md-6 mb-3">
+                            <label for="validationCustom01">Nombre</label>
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="Ana" required>
+                            <div class="valid-feedback">
+                              Perfecto!
+                            </div>
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <label for="validationCustom02">Apellido</label>
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="Viale"  required>
+                            <div class="valid-feedback">
+                              Perfecto!
+                            </div>
+                          </div>
+                          
+                          <div class="col-md-6 mb-3">
+                            <label for="validationCustom02">email</label>
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="juana@email.com"  required>
+                            <div class="valid-feedback">
+                              Perfecto!
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-row contacto-row">
+                          <div class="col-md-6 mb-3 ">
+                            <label for="validationCustom04">Servicio</label>
+                            <select class="custom-select" id="validationCustom04" required>
+                              <option selected disabled value="s1">Uñas</option>
+                              <option selected disabled value="s2">Balayage</option>
+                              <option selected disabled value="s3">Pestañas</option>
+                            </select>
+                            <div class="invalid-feedback">
+                              Por favor selecciona un servicio
+                            </div>
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <label for="validationCustom04">Metodo de Pago</label>
+                            <select class="custom-select" id="validationCustom04" required>
+                              <option selected disabled value="p1">Mercado Pago</option>
+                              <option selected disabled value="p2">Transferencia</option>
+                              <option selected disabled value="p3">Efectivo</option>
+                            </select>
+                            <div class="invalid-feedback">
+                              Por favor selecciona un metodo de pago valido
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row center">
+                            <div class="col-md-6 mb-12">
+                                <button class="btn btn-primary btn-contacto" type="submit">
+                                    ENVIAR
+                                    <img src="../assets/img/whatsapp.png" alt="Whattasp" style="width: 50px; height:50px ;">
+                                </button>
+                            </div>
+                        </div>
+                      </form>
+                </div>
+            </div>       
         </div>
-        <div class="grid-rrss-foo">
-            <div class="titulo-foo">
+        <!--footer-->
+        <div class="footer">
+          <div class="row rrss-titulo">
+            <div class="col-lg-3">
+              <img src="../assets/img/logo.png" alt="" class="logo-foo-principal w-50 center">
+            </div>
+            <div class="col-lg-6">
+              <div class="titulo-foo">
                 <h3 class="titulo-foo-txt">COMUNICATE CON NUETRAS REDES</h3>
+              </div>
             </div>
-            <div class="grid-redes-foo">
-                <div class="footer_whatsapp center">
-                    <h4 class="font-redes"><a href="https://web.whatsapp.com/">3871297348</a></h4>
-                    <img src="../assets/img/whatsapp.png" alt="Whattasp" class="imgRrss w titilar">
-                </div>
-                <div class="footer_instagram center">
-                    <h4 class="font-redes"><a href="https://www.instagram.com/">estetica.bresh</a></h4>
-                    <img src="../assets/img/instagram.png" alt="Instagram" class="imgRrss i titilar">
-                </div>
-                <div class="footer_facebook center">
-                    <h4 class="font-redes"><a href="https://www.facebook.com/">Estética Bresh</a></h4>
-                    <img src="../assets/img/facebook.png" alt="Facebook" class="imgRrss f titilar">
-                </div>
+            <div class="col-lg-3">
+              <img src="../assets/img/estetica.png" alt="" class="logo-foo-sub w-50 center"> 
             </div>
+            
+          </div>
+          <div class="row rrss-img">
+            <div class="col-lg-4">
+              <h4 class="font-redes"><a href="https://web.whatsapp.com/">3871297348</a></h4>
+              <img src="../assets/img/whatsapp.png" alt="Whattasp" class="w-25  titilar">
+            </div>
+            <div class="col-lg-4">
+              <h4 class="font-redes"><a href="https://www.instagram.com/">estetica.bresh</a></h4>
+              <img src="../assets/img/instagram.png" alt="Instagram" class="w-25 titilar">
+            </div>
+            <div class="col-lg-4">
+              <h4 class="font-redes"><a href="https://www.facebook.com/">Estética Bresh</a></h4>
+              <img src="../assets/img/facebook.png" alt="Facebook" class="w-25 titilar">
+            </div>
+          </div>
         </div>
+    </div>
+ 
     
-    </footer>
+    <!-- JS BOOTSTRAP -->
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+        </script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </body>
 </html>
