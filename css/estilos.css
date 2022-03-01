@@ -18,6 +18,10 @@ a:hover{
     z-index: 1;
 
 }
+.conteiner-fluid{
+    overflow: hidden;
+}
+
 nav{
     border: inset 5px white;
     color:white;
