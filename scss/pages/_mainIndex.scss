@@ -1,0 +1,24 @@
+.carrusel-img{
+    padding: 30px;
+}
+.carrusel{
+justify-content: center;
+padding: 10px;   
+background-image: url("../assets/img/salon2.png"); /* nos traemos img para un background */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 30px;
+padding-bottom: 30px;
+align-items: center;
+z-index: 2;
+}
+
+.card{
+    text-align: center;
+    background-color: lightcoral;
+    color: white;
+    padding: 20px;
+    border: 5px white dotted;
+}

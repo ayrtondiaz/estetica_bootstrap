@@ -1,0 +1,179 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'chalet';
+  src: url("../assets/fonts/CHALET-NEW-YORK-NINETEEN-SEVENTY.OTF"); }
+
+a:hover {
+  color: #ff1313; }
+
+* {
+  font-family: 'chalet'; }
+
+h1 {
+  color: white; }
+
+.title {
+  background-color: black; }
+
+.opacidad {
+  animation-name: opacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1.5s; }
+
+@keyframes opacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.grande-pequeño {
+  animation: tamaño 1s ease-in; }
+
+@keyframes tamaño {
+  0% {
+    transform: scale(2, 2); }
+  50% {
+    transform: scale(0, 0); }
+  100% {
+    transform: scale(1, 1); } }
+
+@keyframes titilar {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.titilar {
+  animation-name: titilar;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-duration: 1s; }
+
+.logoImagen {
+  width: 150px; }
+
+.header-row {
+  position: sticky;
+  top: 0;
+  z-index: 1; }
+
+nav {
+  border: inset 5px white;
+  color: white;
+  background-color: lightcoral; }
+
+.nav-link {
+  color: white; }
+
+.navbar-collapse {
+  justify-content: flex-end; }
+
+.nav-item {
+  padding: 20px;
+  color: white; }
+
+.navbar-collapse {
+  color: white; }
+
+.navbar-light {
+  color: white; }
+
+.titulo-contacto {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+
+.contacto {
+  background: #d2f4ff;
+  padding: 30px; }
+
+.contacto-row {
+  flex-direction: column;
+  align-content: center; }
+
+.center {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center; }
+
+.btn-contacto {
+  width: 100%;
+  height: auto;
+  background-color: lightcoral;
+  border-color: #ffb5b5; }
+
+.nosotros {
+  background-color: lightsalmon;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 20px; }
+
+.nosotros-img-txt {
+  align-items: center; }
+
+.card-nosotros {
+  padding: 10px; }
+
+.titulo-nosotros {
+  justify-content: center; }
+
+.hitos {
+  justify-content: center; }
+
+.servicios {
+  background-color: lightcoral;
+  padding: 20px; }
+
+.row-titulo {
+  background-color: #ffd7d7;
+  text-align: center; }
+
+.titulo-unas {
+  text-align: center; }
+
+.img-pad {
+  padding: 20px; }
+
+.ubicacion {
+  padding: 30px;
+  background-color: aquamarine; }
+
+.carrusel-img {
+  padding: 30px; }
+
+.carrusel {
+  justify-content: center;
+  padding: 10px;
+  background-image: url("../assets/img/salon2.png");
+  /* nos traemos img para un background */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+  z-index: 2; }
+
+.card {
+  text-align: center;
+  background-color: lightcoral;
+  color: white;
+  padding: 20px;
+  border: 5px white dotted; }
+
+.footer {
+  padding: 20px;
+  background-color: lightskyblue; }
+
+.rrss-titulo {
+  text-align: center;
+  padding-bottom: 10px;
+  color: white; }
+
+.rrss-img {
+  text-align: center; }

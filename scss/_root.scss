@@ -1,0 +1,17 @@
+
+$colorBlanco: white;
+$colorNegro: black;
+@font-face {
+    font-family: 'chalet';
+    src: url("../assets/fonts/CHALET-NEW-YORK-NINETEEN-SEVENTY.OTF");
+}
+a:hover{
+    color: rgb(255, 19, 19);
+}
+*{font-family: 'chalet';}
+h1{
+    color: $colorBlanco;
+}
+.title{
+    background-color: $colorNegro;
+}

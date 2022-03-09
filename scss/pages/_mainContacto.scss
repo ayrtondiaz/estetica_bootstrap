@@ -1,0 +1,26 @@
+.titulo-contacto{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align:center ;
+}
+.contacto{
+    background: rgb(210, 244, 255);
+    padding: 30px;
+}
+.contacto-row{
+    flex-direction: column;
+    align-content: center;
+}
+.center{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.btn-contacto{
+    width: 100%;
+    height: auto; 
+    background-color: lightcoral;
+    border-color: rgb(255, 181, 181);
+}
