@@ -5,26 +5,27 @@
     position: sticky;
     top: 0;
     z-index: 1;
-}
-nav{
-    border: inset 5px white;
-    color:white;
-    background-color: lightcoral;
-}
-.nav-link{
-    color: white
-}
-.navbar-collapse{
-	justify-content: flex-end;
+    nav{
+        border: inset 5px white;
+        color:white;
+        background-color: lightcoral;
+        .navbar-collapse{
+            justify-content: flex-end;
+            .nav-item{
+                padding: 20px;
+                color: white;
+                .nav-link{
+                    color: white;
+                    &:hover{
+                        color: darkred;
+                    }
+                }
+            }
+        }
+    }
 }
 
-.nav-item{
-    padding: 20px;
-    color: white;
-}
-.navbar-collapse{
-    color: white;
-}
-.navbar-light{
-    color: white;
-}
+
+
+
+
