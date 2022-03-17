@@ -71,31 +71,27 @@ h1 {
           .header-row nav .navbar-collapse .nav-item .nav-link:hover {
             color: darkred; }
 
-.titulo-contacto {
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center; }
-
 .contacto {
   background: #d2f4ff;
   padding: 30px; }
-
-.contacto-row {
-  flex-direction: column;
-  align-content: center; }
-
-.center {
-  text-align: center;
-  align-items: center;
-  align-content: center;
-  justify-content: center; }
-
-.btn-contacto {
-  width: 100%;
-  height: auto;
-  background-color: lightcoral;
-  border-color: #ffb5b5; }
+  .contacto .titulo-contacto {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+  .contacto .row .contacto-row {
+    flex-direction: column;
+    align-content: center; }
+  .contacto .row .center {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center; }
+    .contacto .row .center .btn-contacto {
+      width: 100%;
+      height: auto;
+      background-color: lightcoral;
+      border-color: #ffb5b5; }
 
 .nosotros {
   background-color: lightsalmon;
@@ -103,32 +99,25 @@ h1 {
   text-align: center;
   color: white;
   padding: 20px; }
-
-.nosotros-img-txt {
-  align-items: center; }
-
-.card-nosotros {
-  padding: 10px; }
-
-.titulo-nosotros {
-  justify-content: center; }
-
-.hitos {
-  justify-content: center; }
+  .nosotros .nosotros-img-txt {
+    align-items: center; }
+  .nosotros .titulo-nosotros {
+    justify-content: center; }
+  .nosotros .hitos {
+    justify-content: center; }
+    .nosotros .hitos .card-nosotros {
+      padding: 10px; }
 
 .servicios {
   background-color: lightcoral;
   padding: 20px; }
-
-.row-titulo {
-  background-color: #ffd7d7;
-  text-align: center; }
-
-.titulo-unas {
-  text-align: center; }
-
-.img-pad {
-  padding: 20px; }
+  .servicios .row-titulo {
+    background-color: #ffd7d7;
+    text-align: center; }
+  .servicios .titulo-servicios .titulo-unas {
+    text-align: center; }
+    .servicios .titulo-servicios .titulo-unas .img-pad {
+      padding: 20px; }
 
 .ubicacion {
   padding: 30px;
@@ -159,11 +148,9 @@ h1 {
 .footer {
   padding: 20px;
   background-color: lightskyblue; }
-
-.rrss-titulo {
-  text-align: center;
-  padding-bottom: 10px;
-  color: white; }
-
-.rrss-img {
-  text-align: center; }
+  .footer .rrss-titulo {
+    text-align: center;
+    padding-bottom: 10px;
+    color: white; }
+  .footer .rrss-img {
+    text-align: center; }

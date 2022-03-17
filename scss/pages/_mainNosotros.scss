@@ -4,18 +4,19 @@
     text-align: center;
     color: white;
     padding: 20px;
-    
-}
-.nosotros-img-txt{
-    align-items: center;
-}
-.card-nosotros{
-    padding: 10px;
-}
-.titulo-nosotros{
-    justify-content: center;
+    .nosotros-img-txt{
+        align-items: center;
+    }
+    .titulo-nosotros{
+        justify-content: center;
+    }
+    .hitos{
+        justify-content: center;
+        .card-nosotros{
+            padding: 10px;
+        } 
+    }    
 }
 
-.hitos{
-    justify-content: center;
-}
+
+
