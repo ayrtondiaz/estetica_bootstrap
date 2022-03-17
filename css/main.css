@@ -122,6 +122,11 @@ h1 {
 .ubicacion {
   padding: 30px;
   background-color: aquamarine; }
+  .ubicacion .center {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center; }
 
 .carrusel {
   justify-content: center;
